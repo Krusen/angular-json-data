@@ -11,6 +11,10 @@
         "url": "git+https://github.com/Krusen/angular-json-data.git"
     },
     "bugs": "https://github.com/Krusen/angular-json-data/issues",
+    "files": [
+        "json-data.js",
+        "json-data.min.js"
+    ],
     "devDependencies": {
         "gulp": "~3.9.1",
         "gulp-uglify": "~1.5.4",
