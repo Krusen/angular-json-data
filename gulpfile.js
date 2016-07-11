@@ -5,15 +5,16 @@ var pump = require('pump');
 
 gulp.task("minify", function(cb) {
     pump([
-        gulp.src("json-data.js"),
+        gulp.src("src/json-data.js"),
+        gulp.dest("./dist"),
         uglify(),
         rename("json-data.min.js"),
-        gulp.dest("./")
+        gulp.dest("./dist")
     ],
     cb
   );
 });
 
 gulp.task("default", ["minify"], function() {
-    return gulp.watch("json-data.js", ["minify"]);
+    return gulp.watch("src/json-data.js", ["minify"]);
 });
