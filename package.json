@@ -12,9 +12,10 @@
     },
     "bugs": "https://github.com/Krusen/angular-json-data/issues",
     "files": [
-        "json-data.js",
-        "json-data.min.js",
-        "LICENSE.md"
+        "dist/json-data.js",
+        "dist/json-data.min.js",
+        "LICENSE.md",
+        "README.md"
     ],
     "devDependencies": {
         "gulp": "~3.9.1",
