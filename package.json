@@ -1,6 +1,6 @@
 {
     "name": "angular-json-data",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Directive for loading JSON directly from the HTML",
     "keywords": [ "angular", "directive", "json" ],
     "author": "Søren Kruse",
@@ -13,7 +13,8 @@
     "bugs": "https://github.com/Krusen/angular-json-data/issues",
     "files": [
         "json-data.js",
-        "json-data.min.js"
+        "json-data.min.js",
+        "LICENSE.md"
     ],
     "devDependencies": {
         "gulp": "~3.9.1",
