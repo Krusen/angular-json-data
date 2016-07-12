@@ -6,5 +6,8 @@
     "main": "dist/json-data.js",
     "ignore": [
         "package.json"
-    ]
+    ],
+    "dependencies": {
+        "angular": "^1.2.0"
+    }
 }
