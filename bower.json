@@ -5,6 +5,7 @@
     "keywords": [ "angular", "directive", "json" ],
     "main": "dist/json-data.js",
     "ignore": [
+        "gulpfile.js",
         "package.json"
     ],
     "dependencies": {
