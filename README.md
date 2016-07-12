@@ -3,17 +3,23 @@ This is a directive for easy loading of JSON directly from the HTML.
 With this directive you can include initial data in the HTML sent to the client instead of lazy-loading 
 the data by doing one or more requests after the page has loaded to a webservice or such.
 
-# Usage
-Below are some examples of how to use the directive.
+# Installation
 
-First you need to include it in your app:
+You can install this through bower.
+
+```
+bower install angular-json-data
+```
+
+You then need to include `json-data` as a dependency for your angular app.
 
 ```JS
 // Add 'json-data' as a dependency for your app
 var app = angular.module("MyApp", ["json-data"]);
 ```
 
-Then you can use it like this:
+# Usage
+Below are some examples of how to use the directive.
 
 ```HTML
 <!-- Use the 'model' attribute to store the data in a property on your controller -->
@@ -21,7 +27,7 @@ Then you can use it like this:
     [
         { "title": "Warcraft: The Beginning", year: 2016 },
         { "title": "Star Trek: Beyond", year: 2016 }
-    ]
+pre    ]
 </json-data>
 ```
 
