@@ -27,7 +27,7 @@ Below are some examples of how to use the directive.
     [
         { "title": "Warcraft: The Beginning", year: 2016 },
         { "title": "Star Trek: Beyond", year: 2016 }
-pre    ]
+    ]
 </json-data>
 ```
 
