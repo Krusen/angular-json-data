@@ -1,4 +1,4 @@
-# Introduction
+# Introduction [![npm](https://img.shields.io/npm/v/angular-json-data.svg?maxAge=2592000)](https://www.npmjs.com/package/angular-json-data)
 This is a directive for easy loading of JSON directly from the HTML.
 With this directive you can include initial data in the HTML sent to the client instead of lazy-loading 
 the data by doing one or more requests after the page has loaded to a webservice or such.
